@@ -12,12 +12,7 @@
         }
       }
     ],
-    "assets": [
-      { "include": "**/*.hbs", "outDir": "dist/src" },
-      { "include": "**/*.xml", "outDir": "dist/src" },
-      { "include": "**/*.png", "outDir": "dist/src" },
-      { "include": "**/*.ttf", "outDir": "dist/src" }
-    ],
+    "assets": [{ "include": "m1/templates/*", "outDir": "dist/src" }],
     "watchAssets": true
   }
 }

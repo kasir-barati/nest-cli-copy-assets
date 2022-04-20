@@ -1,5 +1,5 @@
 {
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "**/*.json", "**/*.hbs"],
   "compilerOptions": {
     "module": "commonjs",
     "declaration": true,
